@@ -1,0 +1,1 @@
+all: $(error 'nice' does not run -- or have any use -- under Windows)

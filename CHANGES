@@ -4,3 +4,6 @@
  0.2  changed "licence" from "public domain" to X11 (doesn't matter,
       the DESCRIPTION file asks for a "license")
 
+ 0.3  put #include <sys/time.h> back in.  Linux doesn't need, mac does????
+      Added Makefile.win as suggested by <ligges@statistik.uni-dortmund.de>
+
