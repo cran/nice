@@ -1,0 +1,5 @@
+useDynLib(nice)
+
+export(get.my.priority)
+export(set.my.priority)
+
