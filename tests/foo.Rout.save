@@ -1,7 +1,6 @@
 
-R version 2.15.3 (2013-03-01) -- "Security Blanket"
-Copyright (C) 2013 The R Foundation for Statistical Computing
-ISBN 3-900051-07-0
+R version 3.2.1 (2015-06-18) -- "World-Famous Astronaut"
+Copyright (C) 2015 The R Foundation for Statistical Computing
 Platform: i686-pc-linux-gnu (32-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -30,6 +29,8 @@ The same functionality is in the R function 'psnice'
 [1] 15
 > 
 >  set.my.priority(12)
+Warning message:
+In set.my.priority(12) : Permission denied
 >  set.my.priority(-2)
 Warning message:
 In set.my.priority(-2) : Permission denied
@@ -37,4 +38,4 @@ In set.my.priority(-2) : Permission denied
 > 
 > proc.time()
    user  system elapsed 
-  0.252   0.016   0.245 
+  0.256   0.032   0.288 

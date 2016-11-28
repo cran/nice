@@ -1,12 +1,11 @@
 cf25101ddf50413649fc384e4412aa30 *CHANGES
-d6b19fa4b8bf2cff3a51d5b1f94e1fda *DESCRIPTION
-2fa89b67246962f3f48f179067a1b9ab *LICENSE
+dd5d947ce006ef4f23372f37ef86357f *DESCRIPTION
+5b3746d96ea39f72306c2d6f6cd7a51b *LICENSE
 48b0a3d463ba51cb5612e5e2535ac7d3 *NAMESPACE
 ddc1ca48cdad7aca7d7cb0d20a0899c8 *R/nice.R
 d35023eec17e1fca4c7910740a17bc3e *R/onAttach.R
-ba3145b5a2a4e20b71cc079dce73b887 *foompter
 36401c8178357bd5b6b221ba44c43b77 *man/nice.Rd
 aad1a9f36fe009200345b9feccf5719f *src/Makefile.win
 db5bdede291d41a02e4228068e09193f *src/get_my_priority.c
 e33b9090aa63befbd54c5ed1c108a167 *tests/foo.R
-aab514a673a569f45fdfecd9a07bb006 *tests/foo.Rout.save
+87a9aec36b96c693107709d24b36ffa8 *tests/foo.Rout.save

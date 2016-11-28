@@ -1,15 +1,14 @@
 Package: nice
-Version: 0.4
-Date: 2013-03-30
+Version: 0.4-1
+Date: 2016-11-27
 Title: Get or Set UNIX Niceness
 Author: Charles J. Geyer <charlie@stat.umn.edu>.
 Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
-Depends: R (>= 2.6.0)
-Description: get or set UNIX priority (niceness) of running R process
+Depends: R (>= 2.10.0)
+Description: Get or set UNIX priority (niceness) of running R process.
 License: MIT + file LICENSE
-URL: http://www.stat.umn.edu/geyer/nice/
-Packaged: 2013-03-31 04:03:29 UTC; charlie
 NeedsCompilation: yes
+Packaged: 2016-11-28 03:59:48 UTC; geyer
 OS_type: unix
 Repository: CRAN
-Date/Publication: 2013-03-31 07:54:46
+Date/Publication: 2016-11-28 08:21:10
