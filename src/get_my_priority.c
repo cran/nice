@@ -41,13 +41,13 @@ get_my_priority(int *result)
     errno = 0;
     result[0] = getpriority(PRIO_PROCESS, 0);
     if (errno != 0)
-        warning(strerror(errno));
+        warning("%s", strerror(errno));
 }
 
 void
 set_my_priority(int *priority)
 {
     if (setpriority(PRIO_PROCESS, 0, priority[0]) != 0)
-        warning(strerror(errno));
+        warning("%s", strerror(errno));
 }
 

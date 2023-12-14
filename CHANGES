@@ -7,3 +7,6 @@
  0.3  put #include <sys/time.h> back in.  Linux doesn't need, mac does????
       Added Makefile.win as suggested by <ligges@statistik.uni-dortmund.de>
 
+ 0.4  added startup message that declares package obsolete
+
+ 0.4-2  Fix clang -Wformat-security warning, required by CRAN
